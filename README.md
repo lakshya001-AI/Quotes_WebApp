@@ -1,63 +1,45 @@
-# Weather App
+# Quotes_WebApp
 
-## Overview
-
-The Weather App is a simple web application built using HTML, CSS, and JavaScript. It leverages the OpenWeather API to retrieve real-time weather information based on user-provided city names. The app displays temperature, humidity, and wind speed for the specified city.
+Welcome to the Quotes_WebApp project! This web application is built using HTML, CSS, and JavaScript to display random quotes and author names. The quotes are fetched from the [Type.fit Quotes API](https://type.fit/api/quotes) using the `fetch` and JSON functions in JavaScript.
 
 ## Features
 
-- **User-friendly Interface:** The app provides a clean and intuitive user interface for entering city names and viewing weather details.
+- Display random quotes and author names.
+- Utilizes the Type.fit Quotes API to fetch data.
+- Built with HTML for structure, CSS for styling, and JavaScript for dynamic content.
 
-- **Real-time Data:** Utilizing the OpenWeather API, the app fetches real-time weather data to ensure accurate and up-to-date information.
+## Getting Started
 
-- **Responsive Design:** The application is designed to be responsive, ensuring a seamless experience across various devices and screen sizes.
+To run the Quotes_WebApp locally, follow these steps:
 
-- **Fetch and JSON:** The JavaScript code employs the `fetch` API and JSON parsing to communicate with the OpenWeather API and extract relevant weather information.
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/Quotes_WebApp.git
+   ```
+
+2. Open the project folder:
+
+   ```bash
+   cd Quotes_WebApp
+   ```
+
+3. Open the `index.html` file in your preferred web browser.
 
 ## Usage
 
-To use the Weather App, follow these steps:
-
-1. Clone the repository to your local machine:
-
-    ```bash
-    git clone https://github.com/your-username/weather_app.git
-    ```
-
-2. Open the `index.html` file in a web browser.
-
-3. Enter the desired city name in the input field and click the "Get Weather" button.
-
-4. View the displayed information, including temperature, humidity, and wind speed for the specified city.
-
-## Configuration
-
-If you wish to customize or enhance the Weather App, consider the following:
-
-- **OpenWeather API Key:** Replace the placeholder API key in the JavaScript code with your own OpenWeather API key. You can obtain a key by signing up on the [OpenWeather website](https://openweathermap.org/).
-
-```javascript
-// Replace 'YOUR_API_KEY' with your actual OpenWeather API key
-const apiKey = 'YOUR_API_KEY';
-```
-
-## Dependencies
-
-The project relies on the following technologies:
-
-- HTML
-- CSS
-- JavaScript
-- [OpenWeather API](https://openweathermap.org/api)
+Simply open the `index.html` file in your web browser, and the Quotes_WebApp will generate and display random quotes along with the author's name. Each time you refresh the page, a new quote will be fetched from the Type.fit Quotes API.
 
 ## Contributing
 
-Feel free to contribute to the project by submitting bug reports, feature requests, or pull requests. Your input is highly appreciated!
+If you'd like to contribute to the project, feel free to fork the repository, make changes, and submit a pull request. Contributions are welcome!
 
 ## License
 
-This Weather App is open-source and available under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE.md).
 
----
+## Acknowledgments
 
-Thank you for using the Weather App! If you have any questions or feedback, please don't hesitate to [contact us](mailto:your-email@example.com).
+- Thanks to [Type.fit](https://type.fit/) for providing the Quotes API.
+
+Happy quoting!
